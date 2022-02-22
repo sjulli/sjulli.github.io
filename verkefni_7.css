@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "garamond";
+    src: url(fonts/EBGaramond-ExtraBoldItalic.ttf);
+    src: url(fonts/EBGaramond-ExtraBold.ttf);
+}
+p {
+    font-family: garamond,serif;
+}
+h1 {
+    font-family: garamond,serif;
+    font-style: italic;
+}
