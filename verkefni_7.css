@@ -7,6 +7,9 @@ body {
     margin: 0 auto;
     background: linear-gradient(to bottom, rgb(0, 0, 0) 40%,rgb(24, 24, 24) 60%);
 }
+figure {
+    margin: 0 auto;
+}
 p,header,sub,ul,footer,h3 {
     color: whitesmoke;
     filter: brightness(2);
