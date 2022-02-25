@@ -43,10 +43,18 @@ footer {
     font-weight: 300;
     margin: 5px;
 }
+iframe {
+    width:310px; 
+    height:300px;
+}
 @media only screen and (min-width: 37.5em){
     footer {
         display: grid;
         grid-template-columns: 50% 50%;
+    }
+    iframe {
+        width: 560px;
+        height: 315px; 
     }
 }
 @media only screen and (min-width: 48em){
@@ -57,6 +65,10 @@ footer {
     footer {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+    }
+    iframe {
+        width: 600px;
+        height: 400px; 
     }
 }
 @media only screen and (min-width: 60em){
