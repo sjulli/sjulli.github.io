@@ -1,12 +1,66 @@
-@font-face {
-    font-family: "garamond";
-    src: url(fonts/EBGaramond-ExtraBoldItalic.ttf);
-    src: url(fonts/EBGaramond-ExtraBold.ttf);
+img {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+body {
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 40%,rgb(24, 24, 24) 60%);
+}
+p,header,sub,ul,footer,h3 {
+    color: whitesmoke;
+    filter: brightness(2);
 }
 p {
-    font-family: garamond,serif;
+    font-family: 'EB Garamond', serif;
 }
-h1 {
-    font-family: garamond,serif;
+header {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
     font-style: italic;
+}
+sub {
+    font-size: 70%;
+}
+ul {
+    list-style: none;
+}
+picture {
+    margin: 0 auto;
+}
+a {
+    color: darkgreen;
+}
+a:hover {
+    color: aquamarine;
+    background-color: rgb(85, 0, 0);
+}
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+@media only screen and (min-width: 37.5em){
+}
+@media only screen and (min-width: 48em){
+    .lists {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+@media only screen and (min-width: 60em){
+    article, aside, footer, .lists, figure, .smoke {
+        margin: 0 auto;
+        max-width: 70em;
+    }
+    figure {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 3px;
+    }
+    .smoke {
+        grid-template-columns: 100%;
+    }
 }
