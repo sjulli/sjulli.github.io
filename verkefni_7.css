@@ -39,18 +39,24 @@ a:hover {
     background-color: rgb(85, 0, 0);
 }
 footer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    font-weight: 300;
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     margin: 5px;
 }
 @media only screen and (min-width: 37.5em){
+    footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 @media only screen and (min-width: 48em){
     .lists {
         display: grid;
         grid-template-columns: 50% 50%;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
     }
 }
 @media only screen and (min-width: 60em){
