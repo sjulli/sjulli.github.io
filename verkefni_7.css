@@ -8,8 +8,8 @@ body {
     background: linear-gradient(to bottom, rgb(0, 0, 0) 40%,rgb(24, 24, 24) 60%);
 }
 main {
-    background: url("/myndir/background/5306534.jpg") no-repeat top,
-                url("/myndir/background/5307042.png") no-repeat bottom;
+    background: url("myndir/background/5306534.jpg") no-repeat top,
+                url("myndir/background/5307042.png") no-repeat bottom;
 }
 figure {
     margin: 0 auto;
@@ -123,9 +123,9 @@ dl {
 }
 @media only screen and (min-width: 64em){
     main {
-        background: url("/myndir/background/5306534.jpg") no-repeat top,
-                    url("/myndir/background/258107.jpg") no-repeat center,
-                    url("/myndir/background/5307042.png") no-repeat bottom;
+        background: url("myndir/background/5306534.jpg") no-repeat top,
+                    url("myndir/background/258107.jpg") no-repeat center,
+                    url("myndir/background/5307042.png") no-repeat bottom;
     }
     article, aside, footer, .lists, figure, .smoke{
         margin: 0 auto;
